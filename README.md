@@ -14,7 +14,7 @@ Start:
 1: sudo chmod +x auto-daemon-setup.sh
 
 # Run the script.
-2: ./auto-daemon-setup.sh
+2: sudo ./auto-daemon-setup.sh
 
 Once completed it'll tell you to put in your token which you get from creating your node.
 Navigate to https://domain.ltd/admin/nodes/view/1 then Configuration.
@@ -24,7 +24,7 @@ Select " Generate Token " then copy and paste the one liner into the terminal.
 3. sudo chmod +x auto-service-setup.sh
 
 # Run the script.
-4. ./auto-service-setup.sh
+4. sudo ./auto-service-setup.sh
 
 After you've completed the following steps. The daemon should be online and working properly :)
 
