@@ -1,4 +1,4 @@
-# pterodactyl-auto-installer
+# pterodactyl-daemon-auto-installer
 
 
 
