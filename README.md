@@ -11,21 +11,30 @@ These scripts help automate the daemon install process by only having the user r
 Made for Ubuntu 16.04 & Ubuntu 18.04
 Made with <3 by Brad
 
+# Get the scripts by doing. 
+1. wget https://github.com/NanoNode/pterodactyl-daemon-auto-installer/archive/master.zip
+
+# Unzip the file.
+2. unzip master.zip
+
+# Go to the scripts directory.
+3. cd /pterodactyl-daemon-auto-installer-master
+
 # Give the script the correct permissions to run.
-1: sudo chmod +x auto-daemon-setup.sh
+4. sudo chmod +x auto-daemon-setup.sh
 
 # Run the script.
-2: sudo ./auto-daemon-setup.sh
+5. sudo ./auto-daemon-setup.sh
 
 Once completed it'll tell you to put in your token which you get from creating your node.
 Navigate to https://domain.ltd/admin/nodes/view/1 then Configuration.
 Select " Generate Token " then copy and paste the one liner into the terminal.
 
 # Give the service script the correct permissions.
-3. sudo chmod +x auto-service-setup.sh
+6. sudo chmod +x auto-service-setup.sh
 
 # Run the script.
-4. sudo ./auto-service-setup.sh
+7. sudo ./auto-service-setup.sh
 
 After you've completed the following steps. The daemon should be online and working properly :)
 
