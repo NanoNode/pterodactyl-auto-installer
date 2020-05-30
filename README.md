@@ -12,10 +12,10 @@ Made for Ubuntu 16.04 & Ubuntu 18.04
 Made with <3 by Brad
 
 # Get the scripts by doing. 
-1. wget https://github.com/NanoNode/pterodactyl-daemon-auto-installer/archive/master.zip
+1. sudo wget https://github.com/NanoNode/pterodactyl-daemon-auto-installer/archive/master.zip
 
 # Unzip the file.
-2. unzip master.zip
+2. sudo unzip master.zip
 
 # Go to the scripts directory.
 3. cd /pterodactyl-daemon-auto-installer-master
