@@ -1,6 +1,6 @@
 # pterodactyl-daemon-auto-installer
 
-I suggest installing an SSL for your daemon over at LetsEncrypt
+I suggest installing an SSL for your daemon over at LetsEncrypt ( This will make your node able to support SSL requests )
 
 - Ubuntu 18.04 letsencrypt apache2 install: https://certbot.eff.org/lets-encrypt/ubuntubionic-apache
 - Ubuntu 16.04 letsencrypt apache2 install: https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache
