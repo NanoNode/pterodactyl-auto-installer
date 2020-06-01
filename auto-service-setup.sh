@@ -16,7 +16,7 @@ echo "\e[0m============================================================"
 wait 30
 sudo apt install wget curl -y
 cd /etc/systemd/system
-sudo curl -O http://51.38.112.91/scripts/wings.service
+sudo curl -O https://github.com/NanoNode/pterodactyl-daemon-auto-installer/blob/master/wings.service
 echo "\e[0m============================================================"
 echo "\e[0mDone!"
 echo "\e[0m============================================================"
