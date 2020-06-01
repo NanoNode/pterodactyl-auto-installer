@@ -18,7 +18,7 @@ sudo apt install wget curl -y
 cd /etc/systemd/system
 sudo curl -O https://github.com/NanoNode/pterodactyl-daemon-auto-installer/blob/master/wings.service.zip
 sudo unzip wings.service.zip
-sudo rm rf wings.service.zip
+sudo rm -rf wings.service.zip
 echo "\e[0m============================================================"
 echo "\e[0mDone!"
 echo "\e[0m============================================================"
